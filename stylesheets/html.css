@@ -155,7 +155,7 @@ ul li:before {
   }
 }
 
-.fb_btn:hover, .fb_btn:focus {
+.fb_btn:hover, .fb_btn:visited, .fb_btn:focus {
   background: gray;
   cursor: not-allowed;
 }

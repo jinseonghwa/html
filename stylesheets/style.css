@@ -55,6 +55,16 @@ table {
   box-sizing: border-box;
 }
 
+body {
+  font-family: Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;
+}
+
+/* Bootstrap code */
+@media screen and (max-width: 567px) {
+  .hidden-xxs {
+    display: none;
+  }
+}
 
 /* GNB */
 
@@ -151,4 +161,36 @@ table {
 /* Cover */
 .cover {
   margin-top: 60px;
+  padding: 40px 20px;
+  background-color: #1f344f;
+  background-image: url('img/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.cover_slogan {
+  font-size: 22px;
+  text-align: center;
+  margin: 0.5em auto;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .cover_slogan {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cover_slogan {
+    font-size: 32px;
+  }
+}
+
+.cover ol  {
+  font-size: 16px;
+  text-align:  center;
+  
 }
