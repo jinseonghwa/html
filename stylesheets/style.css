@@ -59,13 +59,27 @@ body {
   font-family: Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;
 }
 
-/* Bootstrap code */
+/* Common Bootstrap override */
 @media screen and (max-width: 567px) {
   .hidden-xxs {
     display: none;
   }
 }
 
+.btn, .btn:visited {
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 0.4em 0.5em;
+  background-color: #37b9ce;
+}
+.btn:hover, .btn:focus {
+  background-color: #3bccdb;
+}
+.btn:active {
+  background-color: #25a2af;
+}
 /* GNB */
 
 .gnb {
@@ -240,4 +254,13 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
+}
+
+.cover p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cover p .cover_btn {
+  margin-left: 0.5em;
 }
