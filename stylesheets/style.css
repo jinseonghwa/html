@@ -318,15 +318,101 @@ body {
 .chart {
   display: block;
   height: 0;
-  padding-top: 768px;
+  padding-top: 820px;
   overflow: hidden;
   text-indent: -9999em;
-  background-image:  url('img/service_img.png');
+  background-image:  url('img/service_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1000px 768px;
+  background-size: 1030px 820px;
 }
 
+/*section 4*/
+.method {
+  display: block;
+  padding-top: 150px;
+  background-color: white; 
+  font-size: 34px;
+}
+
+.method #three {
+  position: relative;
+  left: 200px;
+  top: -70px;
+  color: #a0a0a0;
+}
+
+.md {
+  display: block;
+  height: 0;
+  padding-top: 540px;
+  padding-bottom: 150px;
+  margin: 0em 0em 2em 0em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/md.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1030px 690px;
+}
+
+/*section 5*/
+.cost {
+  display: block;
+  padding-top: 150px;
+  background-color: white; 
+  font-size: 34px;
+}
+
+.cost #four {
+  position: relative;
+  left: 200px;
+  top: -70px;
+  color: #a0a0a0;
+}
+
+.cost_bg {
+  display: block;
+  height: 0;
+  padding-top: 540px;
+  padding-bottom: 150px;
+  margin: 0em 0em 2em 0em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/cost_bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1030px 690px;
+}
+
+/*section 6*/
+.location {
+  display: block;
+  padding-top: 150px;
+  background-color: white; 
+  font-size: 34px;
+}
+
+.location #five {
+  position: relative;
+  left: 200px;
+  top: -70px;
+  color: #a0a0a0;
+}
+
+.location_bg {
+  display: block;
+  height: 0;
+  padding-top: 520px;
+  padding-bottom: 150px;
+  margin: 0em 0em 2em 0em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/location_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1030px 520px;
+}
 footer {
   display: block;
   padding: 40px;
@@ -334,3 +420,4 @@ footer {
   line-height: 1.4em;
   color: gray;
 }
+
