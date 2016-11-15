@@ -339,7 +339,7 @@ body {
 
 .method #three {
   position: relative;
-  left: 200px;
+  left: 330px;
   top: -70px;
   color: #a0a0a0;
 }
@@ -347,7 +347,7 @@ body {
 .md {
   display: block;
   height: 0;
-  padding-top: 540px;
+  padding-top: 2000px;
   padding-bottom: 150px;
   margin: 0em 0em 2em 0em;
   overflow: hidden;
@@ -355,7 +355,7 @@ body {
   background-image:  url('img/md.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1030px 690px;
+  background-size: 780px 2000px;
 }
 
 /*section 5*/
