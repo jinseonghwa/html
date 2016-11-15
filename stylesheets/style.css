@@ -413,6 +413,34 @@ body {
   background-position: center;
   background-size: 780px 369px;
 }
+
+/*section 7*/
+.faq {
+  display: block;
+  padding-top: 150px;
+  background-color: white; 
+  font-size: 34px;
+}
+
+.faq #six {
+  position: relative;
+  left: 330px;
+  top: -70px;
+  color: #a0a0a0;
+}
+
+.faq_bg {
+  display: block;
+  height: 0;
+  padding-top: 2264px;
+  margin: 0em 0em 2em 0em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/FAQ_bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 780px 2264px;
+}
 footer {
   display: block;
   padding: 40px;
