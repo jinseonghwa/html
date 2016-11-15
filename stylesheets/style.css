@@ -277,27 +277,29 @@ body {
 }
 
 .cloud #one {
-  position: relative;
-  left: 200px;
+  position: absolute;
+  left: 330px;
   color: #a0a0a0;
 }
 
 .cloud .bgimg {
   display: block;
   height: 0;
-  padding-top: 651px;
+  padding-top: 592px;
   overflow: hidden;
   text-indent: -9999em;
-  background-image:  url('img/cloud_bg.jpg');
+  background-image:  url('img/cloud_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 980px 651px;
+  background-size: 780px 592px;
 }
 
 .cloud .cloud_slogan {
   position: relative;
   text-align: center;
-  top: -90px;
+  top: -70px;
+  font-size: 26px;
+  line-height: 1.4em;
 }
 
 /*section 3*/
@@ -310,7 +312,7 @@ body {
 
 .service #two {
   position: relative;
-  left: 200px;
+  left: 330px;
   top: -70px;
   color: #a0a0a0;
 }
@@ -318,13 +320,13 @@ body {
 .chart {
   display: block;
   height: 0;
-  padding-top: 820px;
+  padding-top: 1080px;
   overflow: hidden;
   text-indent: -9999em;
   background-image:  url('img/service_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1030px 820px;
+  background-size: 780px 1080px;
 }
 
 /*section 4*/
