@@ -362,21 +362,20 @@ body {
 .cost {
   display: block;
   padding-top: 150px;
-  background-color: white; 
+  background-color: #f7f7f7; 
   font-size: 34px;
 }
 
 .cost #four {
   position: relative;
-  left: 200px;
-  top: -70px;
+  left: 330px;
   color: #a0a0a0;
 }
 
 .cost_bg {
   display: block;
   height: 0;
-  padding-top: 540px;
+  padding-top: 513px;
   padding-bottom: 150px;
   margin: 0em 0em 2em 0em;
   overflow: hidden;
@@ -384,7 +383,7 @@ body {
   background-image:  url('img/cost_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1030px 690px;
+  background-size: 780px 513px;
 }
 
 /*section 6*/
@@ -397,7 +396,7 @@ body {
 
 .location #five {
   position: relative;
-  left: 200px;
+  left: 330px;
   top: -70px;
   color: #a0a0a0;
 }
@@ -405,15 +404,14 @@ body {
 .location_bg {
   display: block;
   height: 0;
-  padding-top: 520px;
-  padding-bottom: 150px;
+  padding-top: 369px;
   margin: 0em 0em 2em 0em;
   overflow: hidden;
   text-indent: -9999em;
-  background-image:  url('img/location_bg.jpg');
+  background-image:  url('img/location_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1030px 520px;
+  background-size: 780px 369px;
 }
 footer {
   display: block;
